@@ -1,0 +1,55 @@
+# Neovim swap/backup/undo files
+*.swp
+*.swo
+*.swn
+*.un~
+*~
+*.bak
+*.orig
+
+# Undo and backup directories (if you use them)
+undo/
+backup/
+
+# Neovim/plugin runtime / cache
+.cache/
+.local/
+.local/share/nvim/
+site/pack/
+pack/
+
+# Plugin manager lock files (keep if you want to track lock state)
+# lazy-lock.json
+
+# Temp and log files
+*.log
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node / JS
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment / secrets
+.env
+.env.local
+
+# Generated files
+tags
+*.lock
+
+# Personal / system-specific files
+*.localhistory

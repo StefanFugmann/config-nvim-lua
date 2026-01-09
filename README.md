@@ -17,6 +17,11 @@ Configuration of my nvim with lua
 
 ### catppuccin.lua
 - Configura o tema Catppuccin com fundo transparente.
+- Suporta todos os sabores oficiais: `latte`, `frappe`, `macchiato`, `mocha`.
+- Comandos disponíveis:
+  - `:CatppuccinSet <flavour>` — Define o sabor (ex.: `:CatppuccinSet mocha`).
+  - `:CatppuccinCycle` — Alterna entre os sabores.
+- Para definir um sabor padrão ao iniciar, adicione `vim.g.catppuccin_flavour = "<flavour>"` no seu `init.lua` ou em `nvim-settings.lua`.
 
 ### lsp-config.lua
 - Configurações para o LSP, incluindo:
